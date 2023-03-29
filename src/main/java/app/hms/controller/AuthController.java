@@ -50,7 +50,7 @@ public class AuthController {
         user.setEmail(signUpDto.getEmail());
         user.setPassword(passwordEncoder.encode(signUpDto.getPassword()));
 
-        Optional<Role> roleAdmin = roleRepository.findByName("ROLE_ADMIN");
+        Optional<Role> roleAdmin = roleRepository.findByName("ROLE_USER");
         Role role = roleAdmin.get();
 
         user.setRoles(Collections.singleton(role));
