@@ -21,8 +21,7 @@ public class HmsApplication implements CommandLineRunner {
 	}
 
 
-	public static void main(String[] args) {
-		SpringApplication.run(HmsApplication.class, args);
+	public static void main(String[] args) {SpringApplication.run(HmsApplication.class, args);
 	}
 
 	@Override
