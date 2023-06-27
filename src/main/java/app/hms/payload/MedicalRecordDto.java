@@ -18,5 +18,5 @@ public class MedicalRecordDto {
 
     private String medicalTestResults;
 
-private PatientDto patient;
+        private PatientDto patient;
 }
